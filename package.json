@@ -1,0 +1,15 @@
+{
+  "name": "boilerplate-webpack-babel-scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
