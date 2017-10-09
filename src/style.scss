@@ -1,4 +1,74 @@
-.hello {
-  font-family: 'Helvetica';
-  color: #baddad;
+// Amatic
+@font-face {
+  font-family: 'Amatic SC', cursive;
+  src:  url('./fonts/Amatic_SC/AmaticSC-Regular.ttf') format('tff');
+  font-weight: 600;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Amatic SC', cursive;
+  src:  url('./fonts/Amatic_SC/AmaticSC-Bold.ttf') format('tff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+// Lato
+// Black
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:  url('./fonts/Lato/Lato-Black.ttf') format('tff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+// Black Italic (weight 900)
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:  url('./fonts/Lato/Lato-BlackItalic.ttf') format('tff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+// Bold
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:  url('./fonts/Lato/Lato-Bold.ttf') format('tff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Bold Italic
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:  url('./fonts/Lato/Lato-BoldItalic.ttf') format('tff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Regular
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:  url('./fonts/Lato/Lato-Regular.ttf') format('tff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Regular Italic
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:  url('./fonts/Lato/Lato-Italic.ttf') format('tff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+// There's also lato light and hairline but don't feel like writing imports 
+
+.hello {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  font-weight: 900;
+  background-image: url('./images/quiet-please.jpg');
+}
+
+

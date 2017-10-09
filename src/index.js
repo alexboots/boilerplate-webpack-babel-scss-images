@@ -1,6 +1,6 @@
  import _ from 'lodash';
  import './style.scss';
- import QuietPlease from './quiet-please.jpg';
+ import QuietPlease from './images/quiet-please.jpg';
 
   function component() {
     var element = document.createElement('div');
